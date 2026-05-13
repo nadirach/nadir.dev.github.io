@@ -1,0 +1,8 @@
+{
+  "projectName": "My Resume",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "8c273cce"
+}

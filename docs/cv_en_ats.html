@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV — Bouchouicha Acheraf Nadir</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 14px; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1a1a2e;
+            background: #fff;
+            line-height: 1.55;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 50px;
+        }
+        @media print {
+            body { padding: 20px 30px; }
+            .no-print { display: none; }
+            a { color: #1a1a2e; text-decoration: none; }
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            padding-bottom: 18px;
+            border-bottom: 2px solid #6c5ce7;
+        }
+        .header h1 {
+            font-size: 2rem;
+            color: #1a1a2e;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 5px;
+        }
+        .header h2 {
+            font-size: 1.1rem;
+            color: #6c5ce7;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+            font-size: 0.88rem;
+            color: #444;
+        }
+        .contact-info a { color: #444; text-decoration: none; }
+        .contact-info a:hover { color: #6c5ce7; }
+        .contact-info span::before { content: '•'; margin-right: 6px; color: #6c5ce7; }
+        .contact-info span:first-child::before { content: ''; margin: 0; }
+        .section { margin-bottom: 20px; }
+        .section-title {
+            font-size: 1.15rem;
+            color: #6c5ce7;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 1.5px solid #e0e0e0;
+            padding-bottom: 4px;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+        .entry { margin-bottom: 14px; }
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+        .entry-title { font-weight: 700; font-size: 1rem; color: #1a1a2e; }
+        .entry-date { font-size: 0.85rem; color: #666; font-style: italic; white-space: nowrap; }
+        .entry-subtitle { font-weight: 600; color: #555; font-size: 0.92rem; margin-bottom: 3px; }
+        .entry p, .entry li { font-size: 0.9rem; color: #444; }
+        .entry ul { padding-left: 18px; margin-top: 4px; }
+        .entry li { margin-bottom: 2px; }
+        .skills-group { margin-bottom: 10px; }
+        .skills-group-title { font-weight: 700; font-size: 0.92rem; color: #1a1a2e; margin-bottom: 3px; }
+        .skills-group p { font-size: 0.9rem; color: #444; }
+        .languages-list { display: flex; gap: 30px; flex-wrap: wrap; }
+        .lang-item { font-size: 0.92rem; }
+        .lang-item strong { color: #1a1a2e; }
+        .lang-item span { color: #666; }
+        .personal-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 25px;
+            font-size: 0.88rem;
+            color: #444;
+        }
+        .print-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #6c5ce7;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+            transition: all 0.3s ease;
+        }
+        .print-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(108, 92, 231, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <button class="print-btn no-print" onclick="window.print()">🖨️ Print / PDF</button>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <h1>Bouchouicha Acheraf Nadir</h1>
+        <h2>Industrial Engineer • Logistics Manager • Web Developer</h2>
+        <div class="contact-info">
+            <span><a href="mailto:bouchouicha.nadir@gmail.com">bouchouicha.nadir@gmail.com</a></span>
+            <span><a href="tel:+213659400177">+213 6 59 40 01 77</a></span>
+            <span>Belgaid — Oran, Algeria</span>
+        </div>
+    </header>
+
+    <!-- ===== PROFILE ===== -->
+    <div class="section" margin-top="0px">
+        <h2 class="section-title">Profile</h2>
+        <p style="font-size: 0.9rem; color: #444;">
+            Industrial engineer holding a Master's degree in Supply Chain Management, with experience in web development, graphic design and logistics management. Calm, serious, motivated and sociable. Able to effectively contribute to the use of IT tools and industrial software. Loyal team member, good listener, committed to creating positive and productive work environments.
+        </p>
+    </div>
+
+    <!-- ===== PROFESSIONAL EXPERIENCE ===== -->
+    <div class="section">
+        <h2 class="section-title">Professional Experience</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Freelance — Designer & Web Developer</span>
+                <span class="entry-date">2020 — Present</span>
+            </div>
+            <ul>
+                <li>Design and development of modern, responsive websites (HTML, CSS, JavaScript, Bootstrap, jQuery)</li>
+                <li>Creation of logos, brand identities, posters, flyers and rollups</li>
+                <li>Collaboration with various clients to meet their visual and digital needs</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Okbane Voyage — Commercial & Ticketing Agent</span>
+                <span class="entry-date">Mar 2024 — Feb 2026</span>
+            </div>
+            <div class="entry-subtitle">EMS Services Manager</div>
+            <ul>
+                <li>Booking and selling airline and ferry tickets</li>
+                <li>Providing visa information and processing applications</li>
+                <li>Receiving and delivering EMS parcels to customers</li>
+                <li>Customer relationship management and personalized advice</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Wamdah Club — Designer</span>
+                <span class="entry-date">Jul 2022 — Oct 2022</span>
+            </div>
+            <ul>
+                <li>Graphic designer and UI/UX designer</li>
+                <li>Active member contributing to the club's visual projects</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">ISIS Prill — Sales Animator</span>
+                <span class="entry-date">Apr 2022 — May 2022</span>
+            </div>
+            <ul>
+                <li>Commercial animation and customer relations</li>
+                <li>Product and promotion presentation</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">SONATRACH — GL3Z, Oran — Intern</span>
+                <span class="entry-date">Dec 2018 — Jan 2019</span>
+            </div>
+            <ul>
+                <li>Study of the natural gas liquefaction process (gaseous state → storage)</li>
+                <li>Understanding of the roles and operations of each department</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">ABRAS, Saïda — Intern</span>
+                <span class="entry-date">Aug — Sep 2016</span>
+            </div>
+            <ul>
+                <li>Learning the manufacturing process of abrasive products and ceramic grinding wheels</li>
+                <li>Full chain follow-up: order → production → shipment</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Saïda Cement Factory — Intern</span>
+                <span class="entry-date">Jun 2014</span>
+            </div>
+            <ul>
+                <li>Visit and familiarization with the cement production process</li>
+                <li>Understanding the full chain: raw material → shipment</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== EDUCATION ===== -->
+    <div class="section">
+        <h2 class="section-title">Education</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Master's Degree — Industrial Eng., Supply Chain Management</span>
+                <span class="entry-date">2017 — 2019</span>
+            </div>
+            <div class="entry-subtitle">University Aboubaker Belkaid — Tlemcen, Algeria</div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Bachelor's Degree — Industrial Eng., Production Engineering</span>
+                <span class="entry-date">2013 — 2017</span>
+            </div>
+            <div class="entry-subtitle">University Aboubaker Belkaid — Tlemcen, Algeria</div>
+            <p>Option: Automation</p>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">High School Diploma (BAC) — Mathematical Techniques</span>
+                <span class="entry-date">2013</span>
+            </div>
+            <div class="entry-subtitle">Kadi Mohammed High School — Saïda, Algeria</div>
+            <p>Specialization: Mechanical Engineering</p>
+        </div>
+    </div>
+
+    <!-- ===== SKILLS ===== -->
+    <div class="section">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-group">
+            <div class="skills-group-title">Web Development</div>
+            <p>HTML5, CSS3, JavaScript, Bootstrap, jQuery, PHP, Java, MySQL</p>
+        </div>
+
+        <div class="skills-group">
+            <div class="skills-group-title">Design & Multimedia</div>
+            <p>Adobe Photoshop, Adobe Illustrator, Adobe XD, Final Cut Pro X</p>
+        </div>
+
+        <div class="skills-group">
+            <div class="skills-group-title">Engineering & Modeling</div>
+            <p>CATIA, SolidWorks, Fusion 360, Matlab, Maple</p>
+        </div>
+
+        <div class="skills-group">
+            <div class="skills-group-title">Office & Operating Systems</div>
+            <p>Microsoft Word, Excel, PowerPoint, Windows, macOS, Linux</p>
+        </div>
+    </div>
+
+    <!-- ===== PROJECTS ===== -->
+    <div class="section">
+        <h2 class="section-title">Academic Projects</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Smart Public Transportation Management (IoT)</span>
+                <span class="entry-date">Master's Project</span>
+            </div>
+            <p>Design of an intelligent system for public transportation management using the Internet of Things (IoT).</p>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Robotic Arm Design & Manufacturing</span>
+                <span class="entry-date">Bachelor's Project</span>
+            </div>
+            <p>Design and manufacturing of a robotic arm using rapid prototyping and molding techniques.</p>
+        </div>
+    </div>
+
+    <!-- ===== LANGUAGES ===== -->
+    <div class="section">
+        <h2 class="section-title">Languages</h2>
+        <div class="languages-list">
+            <div class="lang-item"><strong>Arabic</strong> — <span>Native</span></div>
+            <div class="lang-item"><strong>French</strong> — <span>Fluent</span></div>
+            <div class="lang-item"><strong>English</strong> — <span>Intermediate</span></div>
+        </div>
+    </div>
+
+    <!-- ===== PERSONAL INFORMATION ===== -->
+    <div class="section">
+        <h2 class="section-title">Personal Information</h2>
+        <div class="personal-info">
+            <span><strong>Age:</strong> 31 years old</span>
+            <span><strong>Status:</strong> Single</span>
+            <span><strong>Driver's License:</strong> Category B</span>
+            <span><strong>Military Service:</strong> Completed</span>
+        </div>
+    </div>
+
+</body>
+</html>
